@@ -1,4 +1,4 @@
-const staticDevCoffee = "dev-blog-site-v1"
+const staticDevBlogs = "dev-blog-site-v1"
 const assets = [
   "/",
   "/index.html",
