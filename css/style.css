@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #7493b1;
+  background: #dddddf;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
 }
@@ -16,7 +16,8 @@ main {
   text-align: center;
 }
 nav {
-  display: flex;
+  text-align: center; 
+  display: inline-block;
   justify-content: space-between;
   align-items: center;
 }
@@ -29,8 +30,9 @@ li {
   margin-right: 1rem;
 }
 h1 {
-  color: #e74c3c;
+  color: #1e0fa7f6;
   margin-bottom: 0.5rem;
+  display: inline-block;
 }
 .container {
     display: grid;
