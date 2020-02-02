@@ -11,3 +11,19 @@ const blogs = [
   { name: "Blog9", image: "images/example-blog02.jpg" },
 ]
 
+const showBlogs = () => {
+    let output = ""
+    blogs.forEach(
+      ({ name, image }) =>
+        (output += `
+                <div class="card">
+                  <img class="card--avatar" src=${image} />
+                  <h1 class="card--title">${name}</h1>
+                  <a class="card--link" href="#">Blog</a>
+                </div>
+                `)
+    )
+    container.innerHTML = output
+  }
+  
+  document.addEventListener("DOMContentLoaded", showBlogs)
