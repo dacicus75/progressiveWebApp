@@ -8,7 +8,7 @@
     "orientation": "portrait-primary",
     "icons": [
       {
-        "src": "/images/icons/icon-72x72.png",
+        "src": "/images/icons/css.png",
         "type": "image/png", "sizes": "72x72"
       },
       {
